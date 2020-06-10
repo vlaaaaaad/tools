@@ -58,9 +58,16 @@ export default function Header() {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose}>Profile</MenuItem>
-          <MenuItem onClick={handleClose}>My account</MenuItem>
-          <MenuItem onClick={handleClose}>Logout</MenuItem>
+          <MenuItem onClick={handleClose}>Аккумуляторный инструмент</MenuItem>
+          <MenuItem onClick={handleClose}>Сетевой инструмент</MenuItem>
+          <MenuItem onClick={handleClose}>Ручной инструмент</MenuItem>
+          <MenuItem onClick={handleClose}>Резьбонарезной инструмент</MenuItem>
+          <MenuItem onClick={handleClose}>Принадлежности</MenuItem>
+          <MenuItem onClick={handleClose}>Технические щетки</MenuItem>
+          <MenuItem onClick={handleClose}>Садовый инструмент</MenuItem>
+          <MenuItem onClick={handleClose}>Пневмоинструмент</MenuItem>
+          <MenuItem onClick={handleClose}>Генераторы</MenuItem>
+          <MenuItem onClick={handleClose}>Бензоинструмент</MenuItem>
         </Menu>
         <div className="search">
           <Input
