@@ -1,0 +1,73 @@
+/* Smartphones portrait */
+@media screen and (max-width: 525px) {
+  .search {
+    display: none;
+  }
+  .openMenu {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-right: 1pt solid rgba(0, 0, 0, 0.1);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  .buttons {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    box-sizing: border-box;
+  }
+  .searchMobile {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    box-sizing: border-box;
+    border-bottom: 1pt solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Other */
+@media screen and (min-width: 526px) {
+  .search {
+    display: flex;
+    flex-grow: 0.5;
+
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+  }
+  .openMenu {
+    display: flex;
+    flex-grow: 0.25;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-right: 1pt solid rgba(0, 0, 0, 0.1);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  .buttons {
+    display: flex;
+    flex-grow: 0.25;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 1pt solid rgba(0, 0, 0, 0.1);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  .searchMobile {
+    display: none;
+    height: 75px;
+    border-bottom: 1pt solid rgba(0, 0, 0, 0.1);
+  }
+}

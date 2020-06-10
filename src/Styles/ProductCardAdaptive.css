@@ -1,0 +1,95 @@
+/* Smartphones portrait */
+@media screen and (max-width: 525px) {
+  .card {
+    width: 100%;
+    min-height: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-bottom: 12%;
+  }
+  .cardImage {
+    width: 190px;
+  }
+  .cardMedia {
+    min-height: 240px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Smartphones landscape and Tablets portrait */
+@media screen and (min-width: 526px) and (max-width: 1000px) {
+  .card {
+    width: 47.5%;
+    min-height: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-bottom: 4.5%;
+  }
+  .cardImage {
+    width: 190px;
+  }
+  .cardMedia {
+    min-height: 240px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Tablets landscape */
+@media screen and (min-width: 1001px) and (max-width: 1250px) {
+  .card {
+    width: 31%;
+    min-height: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-bottom: 3.25%;
+  }
+  .cardImage {
+    width: 200px;
+  }
+  .cardMedia {
+    min-height: 240px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1251px) {
+  .card {
+    width: 23%;
+    min-height: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-bottom: 2.5%;
+  }
+  .cardImage {
+    width: 200px;
+  }
+  .cardMedia {
+    min-height: 240px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
