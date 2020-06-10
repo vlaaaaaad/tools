@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   container: {
     width: '100%',
     minHeight: '500px',
-    padding: '70px 10% 70px 10%',
+    padding: '70px 7.5% 70px 7.5%',
     boxSizing: 'border-box',
   },
   // containerHeader: {
