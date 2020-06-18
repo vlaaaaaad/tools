@@ -32,7 +32,12 @@ export default function ProductCard() {
   return (
     <div className="card">
       {featureRender}
-      <div className="cardMedia">
+      <div
+        className="cardMedia"
+        onClick={() => {
+          console.log('Click');
+        }}
+      >
         <img
           className="cardImage"
           src={process.env.PUBLIC_URL + '/image 61.png'}
@@ -40,9 +45,9 @@ export default function ProductCard() {
         />
       </div>
       <div className={classes.cardInfo}>
-        <div className={classes.cardInfoName}>
+        <a href="#" className="cardInfoName">
           Дрель AEG B4-1050 SuperTorque
-        </div>
+        </a>
         <div className={classes.cardInfoAvailability}>Есть на складе</div>
         <div className={classes.cardInfoPrice}>28 382 грн</div>
       </div>
@@ -61,7 +66,7 @@ export default function ProductCard() {
           </SvgIcon>
         </IconButton>
         <IconButton>
-          <FavoriteBorderIcon className={classes.iconsFill} />
+          <FavoriteBorderIcon style={{ fill: '#1C1C1C' }} />
         </IconButton>
       </div>
     </div>
@@ -97,10 +102,11 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     justifyContent: 'space-around',
   },
-  cardInfoName: {
-    fontSize: '16px',
-    color: '#4F4F4F',
-  },
+  // cardInfoName: {
+  //   textDecoration: 'none',
+  //   fontSize: '16px',
+  //   color: '#4F4F4F',
+  // },
   cardInfoAvailability: {
     fontSize: '14px',
     color: '#6FC237',
@@ -126,9 +132,6 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '16px',
     color: '#FFFFFF',
     background: '#4655DA',
-  },
-  iconsFill: {
-    fill: '#929292',
   },
   newIn: {
     width: '120px',

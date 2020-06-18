@@ -55,7 +55,6 @@ export default function ProductsContainer() {
         <div className="hideInMobile">
           <Button
             className={classes.showAllButton}
-            variant="default"
             endIcon={<ArrowForwardIosIcon />}
           >
             Показать всё
@@ -64,7 +63,6 @@ export default function ProductsContainer() {
         <div className="hideInNonMobile">
           <Button
             className={classes.showAllButtonSmall}
-            variant="default"
             endIcon={<ArrowForwardIosIcon />}
           >
             Показать всё
